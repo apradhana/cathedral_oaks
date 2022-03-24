@@ -1,0 +1,3 @@
+#!/bin/bash
+export NOTION_KEY=secret_SGsiIWRJmL2wvh5iPbjw78kRNPBM0W9CKqbhB7GgCq9
+export NOTION_DATABASE_ID=96dc5b7cefb24b09a8f3b0d8d164229d
