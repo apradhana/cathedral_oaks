@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD5AD8AC2810FF060005AB73 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5AD8AB2810FF060005AB73 /* Tests_iOS.swift */; };
+		AD5AD8AE2810FF060005AB73 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5AD8AD2810FF060005AB73 /* Tests_iOSLaunchTests.swift */; };
+		AD5AD8B82810FF060005AB73 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5AD8B72810FF060005AB73 /* Tests_macOS.swift */; };
+		AD5AD8BA2810FF060005AB73 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5AD8B92810FF060005AB73 /* Tests_macOSLaunchTests.swift */; };
+		AD5AD8BB2810FF060005AB73 /* jeremiahawesomeappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5AD8932810FF050005AB73 /* jeremiahawesomeappApp.swift */; };
+		AD5AD8BC2810FF060005AB73 /* jeremiahawesomeappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5AD8932810FF050005AB73 /* jeremiahawesomeappApp.swift */; };
+		AD5AD8BD2810FF060005AB73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5AD8942810FF050005AB73 /* ContentView.swift */; };
+		AD5AD8BE2810FF060005AB73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5AD8942810FF050005AB73 /* ContentView.swift */; };
+		AD5AD8BF2810FF060005AB73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5AD8952810FF060005AB73 /* Assets.xcassets */; };
+		AD5AD8C02810FF060005AB73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5AD8952810FF060005AB73 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD5AD8A82810FF060005AB73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD5AD88E2810FF050005AB73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD5AD8992810FF060005AB73;
+			remoteInfo = "jeremiahawesomeapp (iOS)";
+		};
+		AD5AD8B42810FF060005AB73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD5AD88E2810FF050005AB73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD5AD89F2810FF060005AB73;
+			remoteInfo = "jeremiahawesomeapp (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD5AD8932810FF050005AB73 /* jeremiahawesomeappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jeremiahawesomeappApp.swift; sourceTree = "<group>"; };
+		AD5AD8942810FF050005AB73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD5AD8952810FF060005AB73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD5AD89A2810FF060005AB73 /* jeremiahawesomeapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jeremiahawesomeapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5AD8A02810FF060005AB73 /* jeremiahawesomeapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jeremiahawesomeapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5AD8A22810FF060005AB73 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		AD5AD8A72810FF060005AB73 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5AD8AB2810FF060005AB73 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		AD5AD8AD2810FF060005AB73 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		AD5AD8B32810FF060005AB73 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5AD8B72810FF060005AB73 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		AD5AD8B92810FF060005AB73 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD5AD8972810FF060005AB73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5AD89D2810FF060005AB73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5AD8A42810FF060005AB73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5AD8B02810FF060005AB73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD5AD88D2810FF050005AB73 = {
+			isa = PBXGroup;
+			children = (
+				AD5AD8922810FF050005AB73 /* Shared */,
+				AD5AD8A12810FF060005AB73 /* macOS */,
+				AD5AD8AA2810FF060005AB73 /* Tests iOS */,
+				AD5AD8B62810FF060005AB73 /* Tests macOS */,
+				AD5AD89B2810FF060005AB73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD5AD8922810FF050005AB73 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AD5AD8932810FF050005AB73 /* jeremiahawesomeappApp.swift */,
+				AD5AD8942810FF050005AB73 /* ContentView.swift */,
+				AD5AD8952810FF060005AB73 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AD5AD89B2810FF060005AB73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD5AD89A2810FF060005AB73 /* jeremiahawesomeapp.app */,
+				AD5AD8A02810FF060005AB73 /* jeremiahawesomeapp.app */,
+				AD5AD8A72810FF060005AB73 /* Tests iOS.xctest */,
+				AD5AD8B32810FF060005AB73 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD5AD8A12810FF060005AB73 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD5AD8A22810FF060005AB73 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		AD5AD8AA2810FF060005AB73 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD5AD8AB2810FF060005AB73 /* Tests_iOS.swift */,
+				AD5AD8AD2810FF060005AB73 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		AD5AD8B62810FF060005AB73 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD5AD8B72810FF060005AB73 /* Tests_macOS.swift */,
+				AD5AD8B92810FF060005AB73 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD5AD8992810FF060005AB73 /* jeremiahawesomeapp (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD5AD8C32810FF060005AB73 /* Build configuration list for PBXNativeTarget "jeremiahawesomeapp (iOS)" */;
+			buildPhases = (
+				AD5AD8962810FF060005AB73 /* Sources */,
+				AD5AD8972810FF060005AB73 /* Frameworks */,
+				AD5AD8982810FF060005AB73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "jeremiahawesomeapp (iOS)";
+			productName = "jeremiahawesomeapp (iOS)";
+			productReference = AD5AD89A2810FF060005AB73 /* jeremiahawesomeapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD5AD89F2810FF060005AB73 /* jeremiahawesomeapp (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD5AD8C62810FF060005AB73 /* Build configuration list for PBXNativeTarget "jeremiahawesomeapp (macOS)" */;
+			buildPhases = (
+				AD5AD89C2810FF060005AB73 /* Sources */,
+				AD5AD89D2810FF060005AB73 /* Frameworks */,
+				AD5AD89E2810FF060005AB73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "jeremiahawesomeapp (macOS)";
+			productName = "jeremiahawesomeapp (macOS)";
+			productReference = AD5AD8A02810FF060005AB73 /* jeremiahawesomeapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD5AD8A62810FF060005AB73 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD5AD8C92810FF060005AB73 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				AD5AD8A32810FF060005AB73 /* Sources */,
+				AD5AD8A42810FF060005AB73 /* Frameworks */,
+				AD5AD8A52810FF060005AB73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD5AD8A92810FF060005AB73 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = AD5AD8A72810FF060005AB73 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AD5AD8B22810FF060005AB73 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD5AD8CC2810FF060005AB73 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				AD5AD8AF2810FF060005AB73 /* Sources */,
+				AD5AD8B02810FF060005AB73 /* Frameworks */,
+				AD5AD8B12810FF060005AB73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD5AD8B52810FF060005AB73 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = AD5AD8B32810FF060005AB73 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD5AD88E2810FF050005AB73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					AD5AD8992810FF060005AB73 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					AD5AD89F2810FF060005AB73 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					AD5AD8A62810FF060005AB73 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = AD5AD8992810FF060005AB73;
+					};
+					AD5AD8B22810FF060005AB73 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = AD5AD89F2810FF060005AB73;
+					};
+				};
+			};
+			buildConfigurationList = AD5AD8912810FF050005AB73 /* Build configuration list for PBXProject "jeremiahawesomeapp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD5AD88D2810FF050005AB73;
+			productRefGroup = AD5AD89B2810FF060005AB73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD5AD8992810FF060005AB73 /* jeremiahawesomeapp (iOS) */,
+				AD5AD89F2810FF060005AB73 /* jeremiahawesomeapp (macOS) */,
+				AD5AD8A62810FF060005AB73 /* Tests iOS */,
+				AD5AD8B22810FF060005AB73 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD5AD8982810FF060005AB73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5AD8BF2810FF060005AB73 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5AD89E2810FF060005AB73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5AD8C02810FF060005AB73 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5AD8A52810FF060005AB73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5AD8B12810FF060005AB73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD5AD8962810FF060005AB73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5AD8BD2810FF060005AB73 /* ContentView.swift in Sources */,
+				AD5AD8BB2810FF060005AB73 /* jeremiahawesomeappApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5AD89C2810FF060005AB73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5AD8BE2810FF060005AB73 /* ContentView.swift in Sources */,
+				AD5AD8BC2810FF060005AB73 /* jeremiahawesomeappApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5AD8A32810FF060005AB73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5AD8AE2810FF060005AB73 /* Tests_iOSLaunchTests.swift in Sources */,
+				AD5AD8AC2810FF060005AB73 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5AD8AF2810FF060005AB73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5AD8BA2810FF060005AB73 /* Tests_macOSLaunchTests.swift in Sources */,
+				AD5AD8B82810FF060005AB73 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD5AD8A92810FF060005AB73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD5AD8992810FF060005AB73 /* jeremiahawesomeapp (iOS) */;
+			targetProxy = AD5AD8A82810FF060005AB73 /* PBXContainerItemProxy */;
+		};
+		AD5AD8B52810FF060005AB73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD5AD89F2810FF060005AB73 /* jeremiahawesomeapp (macOS) */;
+			targetProxy = AD5AD8B42810FF060005AB73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD5AD8C12810FF060005AB73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD5AD8C22810FF060005AB73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD5AD8C42810FF060005AB73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = easycloud.jeremiahawesomeapp;
+				PRODUCT_NAME = jeremiahawesomeapp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD5AD8C52810FF060005AB73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = easycloud.jeremiahawesomeapp;
+				PRODUCT_NAME = jeremiahawesomeapp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD5AD8C72810FF060005AB73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = easycloud.jeremiahawesomeapp;
+				PRODUCT_NAME = jeremiahawesomeapp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD5AD8C82810FF060005AB73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = easycloud.jeremiahawesomeapp;
+				PRODUCT_NAME = jeremiahawesomeapp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD5AD8CA2810FF060005AB73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "easycloud.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "jeremiahawesomeapp (iOS)";
+			};
+			name = Debug;
+		};
+		AD5AD8CB2810FF060005AB73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "easycloud.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "jeremiahawesomeapp (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD5AD8CD2810FF060005AB73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "easycloud.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "jeremiahawesomeapp (macOS)";
+			};
+			name = Debug;
+		};
+		AD5AD8CE2810FF060005AB73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "easycloud.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "jeremiahawesomeapp (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD5AD8912810FF050005AB73 /* Build configuration list for PBXProject "jeremiahawesomeapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5AD8C12810FF060005AB73 /* Debug */,
+				AD5AD8C22810FF060005AB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD5AD8C32810FF060005AB73 /* Build configuration list for PBXNativeTarget "jeremiahawesomeapp (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5AD8C42810FF060005AB73 /* Debug */,
+				AD5AD8C52810FF060005AB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD5AD8C62810FF060005AB73 /* Build configuration list for PBXNativeTarget "jeremiahawesomeapp (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5AD8C72810FF060005AB73 /* Debug */,
+				AD5AD8C82810FF060005AB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD5AD8C92810FF060005AB73 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5AD8CA2810FF060005AB73 /* Debug */,
+				AD5AD8CB2810FF060005AB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD5AD8CC2810FF060005AB73 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5AD8CD2810FF060005AB73 /* Debug */,
+				AD5AD8CE2810FF060005AB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD5AD88E2810FF050005AB73 /* Project object */;
+}
