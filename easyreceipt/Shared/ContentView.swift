@@ -14,26 +14,30 @@ struct ReceiptData: Identifiable, Decodable {
     let name: String
 }
 
-class ReceiptDataViewModel: ObservableObject {
+class ReceiptDataVM: ObservableObject {
 
     @Published var messages = "Messages inside observable object"
 
-    @Published var courses: [Course] = {
+    // todo: right now ReceiptDataVM owns this list
+    // it seems that this list is supposed to be
+    // abstracted away in another structure
+    // between the ReceiptData and ReceiptDataVM
+    @Published var receipts: [ReceiptData] = [
         .init(name: "Receipt 1"),
         .init(name: "Receipt 2"),
         .init(name: "Receipt 3")
-    }
+    ]
 
     func changeMessage() {
         self.messages = "blah blah blah"
     }
 
-    func fetchCourses() {
-        guard let url = URL(string: apiUrl) else {return}
-        URLSession.shared.dataTask(with:url) { (data, resp, err) in
-        
-        self.courses = try! JSONDecoder().decode([Course].self, from: data!)}.resume()
-    }
+    //func fetchReceipts() {
+    //    guard let url = URL(string: apiUrl) else {return}
+    //    URLSession.shared.dataTask(with:url) { (data, resp, err) in
+    //
+    //    self.courses = try! JSONDecoder().decode([ReceiptData].self, from: data!)}.resume()
+    //}
 
 }
 struct ContentView: View {
