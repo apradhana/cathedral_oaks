@@ -47,6 +47,7 @@ struct ContentView: View {
             Text("Test hello world!")
         }.navigationBarTitle("Easy Receipt")
         .navigationBarItems(trailing: Button(action: {
+             // todo: this should be changed to calling a function
              print("Fetching json data")
         }, label: {
            Text("Fetch")
