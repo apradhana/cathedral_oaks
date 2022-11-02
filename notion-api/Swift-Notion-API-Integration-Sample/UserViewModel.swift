@@ -27,8 +27,8 @@ class UserViewModel: ObservableObject {
     
     private var cancellable: AnyCancellable?
     private let urlSession = URLSession(configuration: .default)
-    private let baseURL = "https://api.notion.com"
-    private let databaseId = "2bbba353c5ed4179a20e378df56dfa91?v=813e24f99f994f9ab2f0e52b951b3c7d"
+    private let baseURL = "https://api.notion.com/v1/databases"
+    private let databaseId = "2bbba353c5ed4179a20e378df56dfa91"
     private let accessToken = "secret_FDANK8lRS4VVifdIjsZ0QESgBEGpGaUeE8q1lbPoXR4"
 }
 
@@ -39,11 +39,12 @@ extension UserViewModel {
     func queryFromDatabase() {
         
         let urlString = baseURL + "/" + databaseId + "/query"
+ 
         guard let apiURL = URL(string: urlString) else { return }
         var apiURLRequest = URLRequest(url: apiURL)
         
         apiURLRequest.addValue("application/json", forHTTPHeaderField: "Content-Type")
-        apiURLRequest.addValue("2021-05-13", forHTTPHeaderField: "Notion-Version")
+        apiURLRequest.addValue("2022-06-28", forHTTPHeaderField: "Notion-Version")
         apiURLRequest.addValue("Bearer \(accessToken)", forHTTPHeaderField: "Authorization")
         apiURLRequest.httpMethod = "POST"
 
